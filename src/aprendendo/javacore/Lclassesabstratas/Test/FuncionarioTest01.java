@@ -1,7 +1,6 @@
 package aprendendo.javacore.Lclassesabstratas.Test;
 
 import aprendendo.javacore.Lclassesabstratas.Domain.Desenvolvedor;
-import aprendendo.javacore.Lclassesabstratas.Domain.Funcionario;
 import aprendendo.javacore.Lclassesabstratas.Domain.Gerente;
 
 public class FuncionarioTest01 {
@@ -10,5 +9,7 @@ public class FuncionarioTest01 {
         Desenvolvedor desenvolvedor = new Desenvolvedor("Francky", 12000);
         System.out.println(gerente);
         System.out.println(desenvolvedor);
+        gerente.imprime();
+        desenvolvedor.imprime();
     }
 }
