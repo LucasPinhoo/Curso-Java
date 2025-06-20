@@ -1,5 +1,6 @@
 package aprendendo.javacore.Minterfaces.Test;
 
+import aprendendo.javacore.Minterfaces.Domain.DataLoader;
 import aprendendo.javacore.Minterfaces.Domain.DataBaseLoader;
 import aprendendo.javacore.Minterfaces.Domain.FileLoader;
 
@@ -15,5 +16,9 @@ public class DataLoaderTest01 {
         System.out.println("---------------------------------------");
         dataBaseLoader.checkPermission();
         fileLoader.checkPermission();
+        System.out.println("------------------------------------------");
+
+        DataLoader.retrieveMaxDataSize();
+        DataBaseLoader.retrieveMaxDataSize();
     }
 }
