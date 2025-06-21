@@ -1,4 +1,4 @@
-package aprendendo.javacore.Npolimorfismo.Domain.Service;
+package aprendendo.javacore.Npolimorfismo.Service;
 
 import aprendendo.javacore.Npolimorfismo.Domain.Computador;
 import aprendendo.javacore.Npolimorfismo.Domain.Tomate;
