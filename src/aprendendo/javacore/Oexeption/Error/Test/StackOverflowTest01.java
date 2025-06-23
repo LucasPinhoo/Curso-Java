@@ -1,4 +1,4 @@
-package aprendendo.javacore.Oexeption.Test;
+package aprendendo.javacore.Oexeption.Error.Test;
 
 public class StackOverflowTest01 {
     public static void main(String[] args) {
