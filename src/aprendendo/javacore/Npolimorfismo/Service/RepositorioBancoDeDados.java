@@ -1,6 +1,6 @@
 package aprendendo.javacore.Npolimorfismo.Service;
 
-import aprendendo.javacore.Npolimorfismo.Repositorie.Repositorio;
+import aprendendo.javacore.Npolimorfismo.Repository.Repositorio;
 
 public class RepositorioBancoDeDados implements Repositorio {
     @Override

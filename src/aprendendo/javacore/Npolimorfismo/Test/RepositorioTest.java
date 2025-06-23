@@ -1,7 +1,6 @@
 package aprendendo.javacore.Npolimorfismo.Test;
 
-import aprendendo.javacore.Npolimorfismo.Repositorie.Repositorio;
-import aprendendo.javacore.Npolimorfismo.Service.RepositorioBancoDeDados;
+import aprendendo.javacore.Npolimorfismo.Repository.Repositorio;
 import aprendendo.javacore.Npolimorfismo.Service.RepositorioMemoria;
 
 import java.util.LinkedList;
